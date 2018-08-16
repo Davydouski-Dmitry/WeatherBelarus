@@ -15,4 +15,21 @@
     <string name="hint_text">Enter city (e.g, Minsk or минск)</string>
     <string name="read_error">Unable to read weather data</string>
     <string name="connect_error">Unable to connect to OpenWeatherMap.org</string>
+
+    <string name="start_button">Go to work with the app</string>
+    <string name="start_text">Weather in Belarus</string>
+    <string name="start_text_wifi">Find the weather in the city</string>
+
+    <string name="base_text1">
+        To obtain meteorological data for the cities of Belarus, the OpenWeatherMap web service is used
+        (the free version provides data every 3 hours). </string>
+
+    <string name="base_text2">
+       The application is configured only for searching in the cities of Belarus (in any
+        register and language, for example, in Minsk or Minsk).</string>
+
+    <string name="base_text3">
+        To use the application, be sure to turn on the Internet
+        or use the Wi-Fi turn-on service below. </string>
+
 </resources>
