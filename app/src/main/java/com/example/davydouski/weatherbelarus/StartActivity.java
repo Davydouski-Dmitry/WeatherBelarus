@@ -28,7 +28,7 @@ public class StartActivity extends Activity {
         butnClickHW1.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                Intent intent = new Intent(StartActivity.this,MainActivity.class);
+                Intent intent = new Intent(StartActivity.this,WiFiStart.class);
                 startActivity(intent);
             }
         });
