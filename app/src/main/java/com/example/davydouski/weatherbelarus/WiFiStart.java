@@ -5,12 +5,15 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.net.wifi.WifiManager;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CompoundButton;
 import android.widget.Switch;
+import android.widget.Toast;
 
 public class WiFiStart extends Activity{
 
@@ -22,6 +25,19 @@ public class WiFiStart extends Activity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_wifi);
+
+
+        Button checkBrn = (Button)findViewById(R.id.check);
+         checkBrn.setOnClickListener(new View.OnClickListener() {
+             @Override
+             public void onClick(View view) {
+                if(isConnected())
+                    Toast.makeText(getApplicationContext(),"INTERNET доступен", Toast.LENGTH_LONG).show();
+                else
+                    Toast.makeText(getApplicationContext(),"INTERNET не доступен", Toast.LENGTH_LONG).show();
+             }
+         });
+
 
         wifiSwitch = (Switch)findViewById(R.id.wifi_switch);
         wifiManager = (WifiManager) getApplicationContext().getSystemService(Context.WIFI_SERVICE);
@@ -58,6 +74,20 @@ public class WiFiStart extends Activity{
             }
         });
 
+
+    }
+     //для интернета
+    private boolean isConnected() {
+        ConnectivityManager connectivityManager =(ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo networkInfo = connectivityManager.getActiveNetworkInfo();
+
+        if(networkInfo!=null){
+            if(networkInfo.isConnected())
+                return  true;
+            else
+                return false;
+        }else
+            return false;
 
     }
 
