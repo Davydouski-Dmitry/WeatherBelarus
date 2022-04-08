@@ -1,7 +1,7 @@
 # Weather Belarus (Погода в Беларуси)
 Android App (Андроид приложение)
 
-Использовались: JSON, REST, AsyncTask, HttpUrlConnection и т.д.
+Использовались: JSON, REST, AsyncTask, HttpUrlConnection и т.д. Для работы с приложением обязательно включите интернет или воспользуйтесь сервисом включения Wi-Fi. Дополнительно можно проверить включен ли Intenet. Имеются кастомные кнопки.
 
 Для получения данных о погоде по городам Беларуси используется веб-сервис OpenWeatherMap (бесплатная версия предоставляет данные через каждые 3 часа).
 
@@ -9,6 +9,11 @@ Android App (Андроид приложение)
 
 Приложение разработано и поддерживает 2 языка: русский и английский.
 
+![image](https://user-images.githubusercontent.com/40003490/154051649-2a8496ed-115c-4e87-961b-6b35f935233d.png)
+
+![image](https://user-images.githubusercontent.com/40003490/154051794-095cd889-390b-49e1-8b0f-d996f65d5d36.png)
+
+![image](https://user-images.githubusercontent.com/40003490/154051931-81170b3d-a04a-46e0-b96e-2a7ef443fbd6.png)
 
 
 
