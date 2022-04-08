@@ -14,7 +14,9 @@
     <string name="read_error">Не удалось прочитать данные о погоде</string>
     <string name="connect_error">Не удалось подключиться к OpenWeatherMap.org</string>
 
-    <string name="start_button">Перейти к работе с приложением</string>
+    <string name="start_button0">Перейти к работе в ЧАТ</string>
+    <string name="start_button1">Прогноз погоды</string>
+    <string name="start_button2">Информация</string>
     <string name="start_text">Погода в Беларуси</string>
     <string name="start_text2">DavidoffDime</string>
     <string name="start_text_wifi">Найти погоду по городу</string>

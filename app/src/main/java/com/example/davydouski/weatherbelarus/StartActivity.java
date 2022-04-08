@@ -32,5 +32,17 @@ public class StartActivity extends Activity {
                 startActivity(intent);
             }
         });
+
+
+
+
+        Button butnClickHW2 = (Button) findViewById(R.id.buttonHW2);
+        butnClickHW2.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                Intent intent = new Intent(StartActivity.this,InformationActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }

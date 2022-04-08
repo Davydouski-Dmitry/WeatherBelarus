@@ -16,7 +16,9 @@
     <string name="read_error">Unable to read weather data</string>
     <string name="connect_error">Unable to connect to OpenWeatherMap.org</string>
 
-    <string name="start_button">Go to work with the app</string>
+    <string name="start_button0">Go to Chat App</string>
+    <string name="start_button1">Go to Weather App</string>
+    <string name="start_button2">Information</string>
     <string name="start_text">Weather in Belarus</string>
     <string name="start_text2">DavidoffDime</string>
     <string name="start_text_wifi">Find the weather in the city</string>
@@ -32,5 +34,32 @@
     <string name="base_text3">
         To use the application, be sure to turn on the Internet
         or use the Wi-Fi turn-on service below. </string>
+
+    <string name="base_text5">
+        Идея приложения: Мобильный информационно-сервисный ресурс "DavidoffDime» для жителей Беларуси
+        аналогичный сервисам Яндекс, реализованный под android. Захват 100% интересов пользователей в сети и их предпочтений.</string>
+    <string name="base_text6">
+        Цель продукта: универсальный информационно-сервисный ресурс, который является единой точка доступа к спектру
+        приложений различного назначения для жителей РБ. </string>
+    <string name="base_text7">
+
+Функция:
+
+1.	Информационно-сервисная:
+•	Информация о погоде по городам Беларуси.
+•	Новости.
+•	Всевозможные виджеты (будильник, календарь и т.д.)
+2.	Развлекательная:
+•	Игры.
+•	Мультимедийные ресурсы.
+
+
+
+3.	Коммуникационная:
+•	Мессенджер для общения.
+•	Почта
+
+
+ </string>
 
 </resources>
