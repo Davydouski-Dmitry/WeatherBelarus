@@ -8,12 +8,12 @@ Android App (Андроид приложение)
 Приложение настроено только на поиск по городам Беларуси (в любом регистре и языке, например Минск или minsk).
 
 Приложение разработано и поддерживает 2 языка: русский и английский.
+![image](https://user-images.githubusercontent.com/40003490/165813364-95c1aa08-83be-449c-88df-940401361897.png)
 
-![image](https://user-images.githubusercontent.com/40003490/154051649-2a8496ed-115c-4e87-961b-6b35f935233d.png)
+![image](https://user-images.githubusercontent.com/40003490/165813455-ea37b9d1-5c4a-4788-b33e-699871bba201.png)
 
-![image](https://user-images.githubusercontent.com/40003490/154051794-095cd889-390b-49e1-8b0f-d996f65d5d36.png)
+![image](https://user-images.githubusercontent.com/40003490/165813607-977dd0a0-45b2-4d87-9c8e-d7dbba98b2be.png)
 
-![image](https://user-images.githubusercontent.com/40003490/154051931-81170b3d-a04a-46e0-b96e-2a7ef443fbd6.png)
 
 
 
