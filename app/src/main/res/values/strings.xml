@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Weather Bel</string>
+    <string name="app_name">DavidoffDime</string>
     <string name="action_settings">Settings</string>
     <string name="api_key" translatable="false">90c598884bb2e55f8e9303a6c1f90435</string>
     <string name="web_service_url" translatable="false">http://api.openweathermap.org/data/2.5/forecast?q=</string>
